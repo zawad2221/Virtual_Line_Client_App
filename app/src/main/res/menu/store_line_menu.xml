@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/create_line"
+        android:title="Create A Line"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete_line"
+        android:title="Delete Line"
+        android:icon="@drawable/delete"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/check_customer"
+        android:title="Delete Line"
+        android:icon="@drawable/camera"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

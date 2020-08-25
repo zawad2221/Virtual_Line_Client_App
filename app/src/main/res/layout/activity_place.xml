@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".customer_place_view.PlaceActivity"
+        android:padding="@dimen/get_location_activity_component_margin"
+        >
+
+        <LinearLayout
+            android:layout_marginBottom="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/store_list_border"
+            >
+            <TextView
+                android:padding="@dimen/activity_place_component_padding"
+                android:id="@+id/plece_name_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="store name"
+                android:textSize="33dp"
+
+                />
+            <TextView
+                android:padding="@dimen/activity_place_component_padding"
+                android:layout_marginBottom="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/place_address_textView"
+                android:text="33/2,Sector 1,Uttore"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:padding="@dimen/activity_place_component_padding"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/store_list_border"
+        android:id="@+id/line_status_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The line is "
+            android:textSize="18dp"/>
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line_status"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18dp"
+                />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:id="@+id/line_info"
+            >
+
+            <LinearLayout
+                android:padding="@dimen/activity_place_component_padding"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/store_list_border"
+                android:id="@+id/numver_of_customer_in_line_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number of customer checked in line :"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/number_of_customer_in_line_textView"
+                    android:text="22"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="52dp"
+                android:id="@+id/qr_code_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                >
+                <LinearLayout
+                    android:padding="@dimen/activity_place_component_padding"
+                    android:background="@drawable/store_list_border"
+                    android:id="@+id/customer_position_in_line_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your position in line :"/>
+                    <TextView
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/customer_position_in_line_textView"
+                        android:text="22"/>
+                </LinearLayout>
+                <TextView
+                    android:padding="@dimen/activity_place_component_padding"
+                    android:background="@drawable/store_list_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Use this QR code to get access in store while its your turn"
+                    android:textSize="18dp"
+                    />
+                <ImageView
+                    android:background="@drawable/store_list_border"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/qr_code_image_view"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

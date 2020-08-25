@@ -1,0 +1,12 @@
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/get_location_activity_component_height"
+        android:textSize="@dimen/get_location_activity_component_text_size"
+        android:background="#F3EFEF"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        />
+

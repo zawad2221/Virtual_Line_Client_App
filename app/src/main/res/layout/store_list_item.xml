@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="@dimen/get_location_activity_component_margin"
+    android:id="@+id/linearLayout"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/store_list_border"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Store name"
+            />
+        <TextView
+            android:id="@+id/store_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Store Type"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+
+            android:id="@+id/store_info_edit_imageView"
+            android:layout_width="95dp"
+            android:layout_height="40dp"
+            android:src="@drawable/edit"
+            android:layout_gravity="center_vertical"
+            />
+        <ImageView
+
+            android:id="@+id/store_delete_imageView"
+            android:layout_width="95dp"
+            android:layout_height="40dp"
+            android:src="@drawable/delete"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

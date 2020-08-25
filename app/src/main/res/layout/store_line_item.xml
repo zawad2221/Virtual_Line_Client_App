@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="@dimen/get_location_activity_component_margin"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/store_list_border"
+    >
+    <TextView
+        android:id="@+id/name_textView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="user name"
+        android:textSize="@dimen/get_location_activity_component_text_size"
+        android:textAlignment="textStart"
+        />
+    <ImageView
+        android:id="@+id/removeUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        />
+
+</LinearLayout>

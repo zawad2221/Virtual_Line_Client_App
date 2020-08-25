@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Virtual Line</string>
+    <string name="access_token">pk.eyJ1IjoicmlmYXQyMjIxIiwiYSI6ImNrOWMybXVvbjAwdGgzdHBmMnFzZWR6eXQifQ.mR1wwf0eO3DZSxlzId-0cA</string>
+    <string name="move_map_instruction">Move map to place\nmarker at desired location</string>
+    <string name="location_picker_select_location_button_select">location_picker_select_location_button_select</string>
+    <string name="location_picker_place_name_result">location_picker_place_name_result</string>
+    <string name="location_picker_dropped_marker_snippet_no_results">No results</string>
+    <string name="location_picker_select_location_button_cancel">Cancel</string>
+    <string name="go_to_picker_activity">\"tool\":\"Resource and asset merger</string>
+    <string name="selected_place_info">Selected location information:\n%1$s</string>
+    <string name="get_location_place_name">Place Name</string>
+    <string name="get_location_drop_down_title">Select a Type</string>
+    <string name="get_location_place_address">Place Address</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="map_key">"AIzaSyDSd9Y5_BrBGLYsn91fuLgb-QfsNiBKqSM"</string>
+</resources>

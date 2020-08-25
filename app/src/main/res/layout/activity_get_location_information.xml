@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/get_location_activity_component_margin"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_place.SavePlaceInformationActivity"
+    android:background="@android:color/white"
+    >
+    <EditText
+        android:id="@+id/place_name_editText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/get_location_activity_component_height"
+        android:layout_margin="@dimen/get_location_activity_component_margin"
+        android:hint="@string/get_location_place_name"
+        android:textSize="@dimen/get_location_activity_component_text_size"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/get_location_activity_component_height"
+        android:layout_margin="@dimen/get_location_activity_component_margin"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/get_location_drop_down_title"
+            android:textSize="@dimen/get_location_activity_component_text_size"
+            android:gravity="center"
+
+            />
+        <Spinner
+            android:id="@+id/place_type_drop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/get_location_activity_component_text_size"
+            android:layout_gravity="center"
+
+            >
+
+        </Spinner>
+    </LinearLayout>
+
+    <EditText
+
+        android:id="@+id/place_address_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/get_location_activity_component_height"
+        android:layout_margin="@dimen/get_location_activity_component_margin"
+        android:hint="@string/get_location_place_address"
+        android:textSize="@dimen/get_location_activity_component_text_size">
+
+    </EditText>
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--        android:text="Service Time"-->
+<!--        android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--        android:layout_margin="@dimen/get_location_activity_component_margin"-->
+<!--        />-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--        android:layout_margin="@dimen/get_location_activity_component_margin"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--            android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--            android:text="From"-->
+<!--            />-->
+<!--        <Spinner-->
+<!--            android:id="@+id/from_day_dropdown"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--            android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--            android:layout_gravity="center"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--            android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--            android:text="To"-->
+<!--            />-->
+<!--        <Spinner-->
+<!--            android:id="@+id/to_day_dropdown"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--            android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--            android:layout_gravity="center"-->
+<!--            />-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--        android:layout_margin="@dimen/get_location_activity_component_margin"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--            android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--            android:text="Open"-->
+<!--            />-->
+<!--        <Spinner-->
+<!--            android:id="@+id/open_time_dropdown"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--            android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--            android:layout_gravity="center"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--            android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--            android:text="Close"-->
+<!--            />-->
+<!--        <Spinner-->
+<!--            android:id="@+id/close_time_dropdown"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/get_location_activity_component_height"-->
+<!--            android:textSize="@dimen/get_location_activity_component_text_size"-->
+<!--            android:layout_gravity="center"-->
+<!--            />-->
+
+
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>
