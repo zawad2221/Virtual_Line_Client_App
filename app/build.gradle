@@ -74,6 +74,8 @@ dependencies {
     implementation "com.google.android.gms:play-services-maps:16.1.0"
     implementation 'de.hdodenhof:circleimageview:2.1.0'
 
+    //location
+    implementation "com.google.android.gms:play-services-location:17.0.0"
     annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
 
 

@@ -47,13 +47,30 @@
 <!--                mapbox:mapbox_cameraTargetLng="90.378106"-->
 <!--                mapbox:mapbox_cameraZoom="12"/>-->
 
-<!--        </FrameLayout>-->
-        <fragment
+
+
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/google_map"
-            android:name="com.google.android.gms.maps.SupportMapFragment"
-            />
+            >
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/google_map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_below="@+id/place_type_option_recycler_view"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:clickable="true"
+                android:layout_marginTop="72dp"
+                android:id="@+id/place_type_option_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                />
+        </FrameLayout>
+<!--        </FrameLayout>-->
+
 
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

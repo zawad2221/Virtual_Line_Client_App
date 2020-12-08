@@ -48,7 +48,7 @@ public class LoginRepository  {
         final ProgressDialog progressDialog=showDialog(applicationContext);
 
         Retrofit.Builder builder=new Retrofit.Builder()
-                .baseUrl("http://192.168.56.1:8000/system_user/")
+                .baseUrl("http://10.0.2.2:8000/system_user/")
                 .addConverterFactory(GsonConverterFactory.create());
         Retrofit retrofit = builder.build();
         LoginRetrofit loginRetrofit=retrofit.create(LoginRetrofit.class);
